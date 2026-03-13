@@ -1877,6 +1877,7 @@ if(ENABLE_PLUGINS)
 	set_target_properties(plugins PROPERTIES FOLDER "Plugins")
 	set(WIRESHARK_PLUGIN_SRC_DIRS
 		plugins/epan/ethercat
+		plugins/epan/fdcp
 		plugins/epan/gryphon
 		plugins/epan/irda
 		plugins/epan/mate
